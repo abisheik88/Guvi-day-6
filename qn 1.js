@@ -34,10 +34,10 @@ var c1 = new Movie("Vikram","raajkamal studio")
 the studio “Eon Productions”, and the rating “PG­13”*/
 
 class Movie{
-  constructor(Title="Casino Royale",Studio="Eon Productions",Rating="PG13"){
+  constructor(Title,Studio,Rating){
   this.Title=Title;
   this.Studio=Studio;
   this.Rating=Rating;
   } 
 }
-var c1=new Movie();
+var c1=new Movie(“Casino Royale”,“Eon Productions”,“PG13”);
